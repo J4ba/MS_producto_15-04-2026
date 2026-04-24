@@ -9,7 +9,7 @@ jobs:
     build-and_push:
         runs-on: ubuntu-latest
 
-        setps:
+        steps:
             -name: Descargar el codigo del repo
             uses: action/checkout@v4
 
